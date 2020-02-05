@@ -39,3 +39,7 @@ function destructivelyRemoveElementFromEndOfArray(anArray) {
   anArray.pop();
   return anArray;
 }
+
+function removeElementFromEndOfArray(anArray) {
+  return anArray.slice(0, anArray.length - 1);
+}
